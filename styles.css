@@ -56,3 +56,16 @@ textarea {
   color: #fff;
   font-size: 32px;
 }
+
+/* Media Queries */
+@media(max-width: 408px){
+  /* Shrink .wrapper by 20%*/
+   .wrapper {
+     transform: translate(-50%, -50%) scale(0.8);
+   }
+    .count{
+      width: 90%;
+    }
+   
+   
+ }
