@@ -15,3 +15,13 @@ inputTextArea.addEventListener("input", () => {
   //Count length of this array
   wordCount.textContent = txt.split(" ").filter((str) => str !== "").length;
 });
+
+// Local Storage
+//Save the text inputted to local storage
+inputTextArea.addEventListener("input", () => {
+  localStorage.setItem("text", inputTextArea.value);
+});
+
+//Get the text from local storage even after refreshing the page
+inputTextArea.value = localStorage.getItem("text");
+
