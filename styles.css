@@ -20,7 +20,7 @@ body {
 }
 
 .container {
-  background-color: #fff;
+  background-color: #FAF9F6;
   padding: 50px 30px 80px 30px;
   border-radius: 8px;
   box-shadow: 0 30px 50px rgba(30, 21, 49, 0.3);
@@ -33,6 +33,7 @@ textarea {
   font-size: 16px;
   line-height: 28px;
   color: #0e101a;
+  background-color: #FAF9F6;
 }
 
 .count {
@@ -68,4 +69,36 @@ textarea {
     }
    
    
+ }
+ /* Smallest phone */
+@media(max-width: 350px){
+  /* Shrink .wrapper by 40%*/
+   .wrapper {
+     transform: translate(-50%, -50%) scale(0.7);
+   }
+    .count{
+      width: 95%;
+    }
+   
+   
+ }
+
+ /* Clear Btn */
+ .btn--clear-div{
+  display: flex;
+ }
+
+ 
+ #btn-clear {
+  color: #313639;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #FAF9F6;
+  box-shadow: 0 20px 40px rgba(30, 21, 49, 0.4);
+  transition: all 0.3s ease;
  }
