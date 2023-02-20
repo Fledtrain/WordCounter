@@ -37,4 +37,3 @@ inputTextArea.addEventListener("input", () => {
 
 //Get the text from local storage even after refreshing the page
 inputTextArea.value = localStorage.getItem("text");
-
