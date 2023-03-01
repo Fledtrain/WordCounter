@@ -62,7 +62,20 @@ textarea {
 @media(max-width: 412px){
   /* Shrink .wrapper by 20%*/
    .wrapper {
-     transform: translate(-50%, -50%) scale(0.8);
+     transform: translate(-50%, -50%) scale(0.90);
+   }
+    .count{
+      width: 90%;
+    }
+    #btn--clear-div{
+      width: auto;
+    }
+ }
+ /* Smallest phone */
+@media(max-width: 350px){
+  /* Shrink .wrapper by 40%*/
+   .wrapper {
+     transform: translate(-50%, -50%) scale(0.77);
    }
     .count{
       width: 90%;
@@ -70,23 +83,10 @@ textarea {
     #btn-clear{
       width: auto;
     }
-   
-   
- }
- /* Smallest phone */
-@media(max-width: 350px){
-  /* Shrink .wrapper by 40%*/
-   .wrapper {
-     transform: translate(-50%, -50%) scale(0.7);
-   }
-    .count{
-      width: 95%;
+    .btn--clear-div{
+      align-items: center;
+      margin: 0 10px;
     }
-    #btn-clear{
-      width: auto;
-    }
-    
-   
  }
 
  /* Clear Btn */
