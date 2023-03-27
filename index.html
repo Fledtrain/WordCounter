@@ -4,46 +4,46 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Fledtrain's Word Counter">
-    <meta name="theme-color" content="#8b5ceb">
+    <meta name="description" content="Fledtrain's Word Counter" />
+    <meta name="theme-color" content="#8b5ceb" />
     <link rel="stylesheet" href="styles.css" />
-    <link rel="canonical" href="https://fledtrain.github.io/WordCounter/">
+    <link rel="canonical" href="https://fledtrain.github.io/WordCounter/" />
     <title>Word Counter</title>
     <!-- Favicon Logo -->
     <link rel="icon" href="./Assets/Word-Counter-1.png" type="jpg" />
   </head>
   <body>
-    <!-- Wrapper Begin -->
-    <div class="wrapper">
-      <div class="container">
-        <textarea
-          id="input-textarea"
-          rows="12"
-          placeholder="Start typing Here....."
-        ></textarea>
-      </div>
-      <!-- Word & Char Count Begin -->
-      <div class="count">
-        <div>
-          <h5 id="word-count">0</h5>
-          <p>Words</p>
+    <main>
+      <!-- Wrapper Begin -->
+      <div class="wrapper">
+        <div class="container">
+          <textarea
+            id="input-textarea"
+            rows="12"
+            placeholder="Start typing Here....."
+          ></textarea>
         </div>
+        <!-- Word & Char Count Begin -->
+        <div class="count">
+          <div>
+            <h5 id="word-count">0</h5>
+            <p>Words</p>
+          </div>
 
-        <!-- Clear button -->
-        <div class="btn--clear-div">
-          <button type="reset" id="btn-clear">
-            Clear
-          </button>
-        </div>
+          <!-- Clear button -->
+          <div class="btn--clear-div">
+            <button type="reset" id="btn-clear">Clear</button>
+          </div>
 
-        <div>
-          <h5 id="char-count">0</h5>
-          <p>Characters</p>
+          <div>
+            <h5 id="char-count">0</h5>
+            <p>Characters</p>
+          </div>
         </div>
+        <!-- Word & Char Count End -->
       </div>
-      <!-- Word & Char Count End -->
-    </div>
-    <!--  Wrapper End -->
+      <!--  Wrapper End -->
+    </main>
   </body>
   <script src="script.js" defer></script>
 </html>
