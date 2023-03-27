@@ -1,20 +1,18 @@
-let inputTextArea = document.getElementById("input-textarea");
-let charCount = document.getElementById("char-count");
-let wordCount = document.getElementById("word-count");
-
+const inputTextArea = document.getElementById("input-textarea");
+const charCount = document.getElementById("char-count");
+const wordCount = document.getElementById("word-count");
 
 //Add a function that deletes all the text in the textarea when the clear button is clicked
 document.getElementById("btn-clear").addEventListener("click", () => {
   inputTextArea.value = "";
 });
 
-//Deletes the local storage when the clear button is clicked and resets the character and word count to 0 
+//Deletes the local storage when the clear button is clicked and resets the character and word count to 0
 document.getElementById("btn-clear").addEventListener("click", () => {
   charCount.textContent = 0;
   wordCount.textContent = 0;
   localStorage.clear();
 });
-
 
 inputTextArea.addEventListener("input", () => {
   //Count the number of characters
