@@ -2,6 +2,7 @@ const inputTextArea = document.getElementById("input-textarea");
 const charCount = document.getElementById("char-count");
 const wordCount = document.getElementById("word-count");
 
+
 //Add a function that deletes all the text in the textarea when the clear button is clicked
 document.getElementById("btn-clear").addEventListener("click", () => {
   inputTextArea.value = "";
